@@ -1,0 +1,222 @@
+body{
+background-color: hsl(217.2 32.6% 17.5%);
+color: white;
+margin: 0%;
+padding: 0%;
+}
+.one{
+    position: fixed;
+    
+   background-color: hsl(217.2 32.6% 17.5%);
+  
+     z-index: 2;
+    display: flex;
+     justify-content: space-between;
+     width: 100%;
+     color:  dimgrey;
+     padding:0px 20px 0px ;
+     align-items: center;
+     
+}
+ul{
+     
+    list-style: none;
+    display: flex;
+   gap: 50px;
+}
+li{
+    
+}
+.nip{
+    font-size: 14px;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    padding-left: 0%;
+    padding: 0%;
+    
+}
+.purple{
+    color: purple;
+}
+.time{
+
+}
+.yeppp{}
+.tom:hover{
+    color: white;
+}
+.jerry:hover{
+    color: white;
+}
+.smart:hover{
+    color: white;
+}
+.slow:hover{
+    color: white;
+}
+.leave:hover{
+    color: white;
+}
+.life{
+  padding:  10px;  
+}
+b{
+    color: purple;
+}
+h1{
+margin-bottom: 0px;
+    font-size: 4rem;
+}
+.from{padding: 10px 0px 0px 0px;
+    grid-gap: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20px;
+    position: static;
+    margin-bottom: 100px;
+    animation-delay: 1s;
+}
+img{
+animation: move 2s infinite alternate ease-in-out;
+margin-top: 120px;
+z-index: 1;
+border-radius: 30px;
+}
+@keyframes move{
+  
+from{transform: translate(0px);}
+to{transform: translateY(20px);}
+}
+.both{
+    font-size: 12px;
+    
+    border: 1px solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 5px 15px ;
+}
+.life{
+    color: purple;
+}
+.movie{
+    display: inline-block; 
+    background-color: purple;
+     padding: 10px; 
+     border-radius: 10px; 
+     color: white;
+      margin-right:  20px ;
+    }
+    .moth{
+        font-size: 20px;
+        padding-right: 50px;
+        color: darkgrey;
+        
+    }
+    .Word{
+        display: flex;
+        gap: 20px;
+    }
+    .some{
+        display: inline-block;
+        padding: 15px 50px;
+        background-color: purple;
+        border-radius: 20px;
+    }
+    .some:hover{
+        background-color: darkviolet;
+    }
+    .demo{
+       display: inline-block;
+        padding: 15px 50px;
+        background-color: black; 
+        border-radius: 20px;
+    }
+    .demo:hover{
+background-color: dimgrey;
+    }
+    .gruu{
+        display: flex;
+        margin-top: 30px;
+      color: dimgrey;  
+    }
+    h2{
+        margin: 10px 0px;
+        padding: 0px 5px;
+        color: white;
+    }
+    hr{
+        margin: 8px 20px;
+        color: dimgrey; 
+    }
+    .feww{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        grid-auto-rows: minmax(70px,auto);
+        background-color: #1A1F2C  ;
+    }
+    .bring{
+        grid-column: 1/4;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 50px;
+       
+    }
+    .lola{
+        font-size: 20px;
+         color: darkgrey;
+    }
+    .kreep{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-row: 2/9;
+        grid-column: 1/4;
+       
+        grid-gap: 40px 10px;
+        
+        padding: 10px 10px 10px 10px;
+        background-color: #1A1F2C  ;
+    }
+    .day{
+        background-color: #1A1F2C  ;
+      
+        border-radius: 10px;
+        padding: 30px 0px;
+        margin: 0px 20px;
+        grid-gap: 20px;
+        border: 1px solid white;
+    }
+    .day:hover{
+   background-color: dimgrey;
+   box-shadow: 0px 2px 2px 0px purple;
+    }
+    .preep{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column: 1/4;
+        grid-row: 10/14;
+        background-color: #1A1F2C;
+        margin-bottom: 60px;
+    }
+    .love{
+       background-color: #1A1F2C  ;
+      
+        border-radius: 10px;
+        padding: 30px 0px;
+        margin: 0px 20px;
+        grid-gap: 20px;
+        border: 1px solid white; 
+    }
+    .pad{
+         display: inline-block;
+        padding: 15px 50px;
+        background-color: purple;
+        border-radius: 20px;
+        margin: auto;
+        grid-column: 2/3;
+    }
+    .pad:hover{
+        background-color: darkviolet;
+    }
