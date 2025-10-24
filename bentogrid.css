@@ -1,0 +1,70 @@
+body{
+    background-color: hsl(0, 0%, 100%);
+    
+    padding: 0%;
+    margin-top: 100px;
+}
+.bento{
+    grid-gap: 20px;
+    margin: auto;
+    width: 1000px ;
+    height: 150dvh;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(180px,auto);
+    grid-template-columns: minmax(80px, auto);
+    padding: 20px;
+
+}
+.first{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 20px;
+}
+.sec{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background-color: hsl(256, 67%, 59%);
+     border-radius: 20px;
+}
+.third{
+    grid-column: 4/5;
+    grid-row: 1/4;
+    background-color: hsl(254, 88%, 90%);
+     border-radius: 20px;
+}
+.four{
+grid-column: 1/1;
+grid-row:3/5 ;
+background-color: hsl(39, 100%, 71%);
+border-radius: 20px;
+}
+.five{
+    grid-column: 2/3;
+    grid-row: 2/4 ;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.six{
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-color:hsl(39, 100%, 71%); 
+    border-radius: 20px;
+}
+.seven{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+.eight{
+    grid-column: 3/5;
+    grid-row: 4/5;
+    background-color: hsl(256, 67%, 59%);
+     border-radius: 20px;
+}

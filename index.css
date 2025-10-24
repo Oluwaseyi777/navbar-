@@ -15,7 +15,7 @@ nav{
 }
 .navbar{
    box-shadow: 2px 4px 6px 4px greenyellow;
-   animation: breath 1.5s infinite ease-in-out alternate;
+   animation: breath 1.5s  infinite ease-in-out alternate;
 }
 @keyframes breath{
     from{transform: translate(0px);}

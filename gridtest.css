@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(100px,auto);
+    grid-template-areas:
+    "Header Header Header Header"
+    "Aside Aside Main Main" 
+    "Nav Nav Main Main"
+    "Section Section Section Section"
+    "Section Section Section Section"
+    "Footer Footer Footer Footer"
+    ;
+    grid-gap: 10px;
+
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(100px,auto);
+    grid-template-areas:
+    "Header Header Header Header"
+    "Aside Aside Aside Aside " 
+    "Main Main Main Main"
+    "Nav Nav Nav Nav"
+    "Aside Aside Section Section"
+    "Section Section Section Section"
+    
+    "Footer Footer Footer Footer"
+    ;grid-gap: 10px;
+
+}
+@media only screen and (min-width:768px) {
+ .wrapper{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(100px,auto);
+    grid-template-areas:
+    "Header Header Header Header"
+    "Aside Aside Main Main" 
+    "Nav Nav Main Main"
+    "Aside Aside Section Section"
+    "Section Section Section Section"
+    "Footer Footer Footer Footer"
+    ;grid-gap: 10px;
+
+}   
+}
+
+
+div.box:nth-child(even){
+    background-color: #555;
+}
+div .box{
+    background-color: aqua;
+    text-align: center;
+    color: #fff;
+    padding:20px;
+}
+.Header{
+    grid-area: Header;
+}
+.Main{
+    grid-area: Main;
+}
+.Section{
+    grid-area: Section;
+}
+.Aside{
+    grid-area: Aside;
+}
+.Nav{
+    grid-area: Nav;
+}
+.Footer{
+    grid-area: Footer;
+}
